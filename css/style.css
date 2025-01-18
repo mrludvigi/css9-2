@@ -124,3 +124,106 @@ button{
     font-weight: 600;
     line-height: 24px; /* 150% */
 }
+/* Hero */
+.hero-section{
+    display: flex;
+    padding-top: var(--spacing-9xl, 96px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-7xl, 64px);
+    align-self: stretch;
+}
+.hero-header-container{
+    display: flex;
+    max-width: var(--container-max-width-desktop, 1280px);
+    padding: 0px var(--container-padding-desktop, 32px) 0px var(--spacing-4xl, 32px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4xl, 32px);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-6xl, 48px);
+    align-self: stretch;
+}
+.heading-text{
+    display: flex;
+    max-width: var(--width-xl, 768px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-3xl, 24px);
+    align-self: stretch;
+}
+.heading-subheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-lg, 12px);
+    align-self: stretch;
+}
+.hero-subhead{
+    color: #E9D7FE;
+    text-align: center;
+    font-size: var(--Font-size-text-md, 16px);
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    align-self: stretch;
+}
+.hero-headtext{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 90px; /* 125% */
+    letter-spacing: -1.44px;
+    align-self: stretch;
+}
+.support-text{
+    color: #E9D7FE;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    align-self: stretch;
+}
+.hero-action{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.action-demo{
+    display: flex;
+    padding: 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #414651;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    border-radius: 10px;
+    background: #FFF;
+}
+.action-sign{
+    display: flex;
+    padding: 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: #7F56D9;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+}
+.hero-cards{
+    display: flex;
+    padding: 0px var(--container-padding-desktop, 32px) 0px var(--spacing-4xl, 32px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-4xl, 32px);
+    align-self: stretch;
+}
