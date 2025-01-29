@@ -987,6 +987,9 @@ button{
 .cta-section{
     display: none;
 }
+.newsletter-mobile{
+    display: none;
+}
 
 /* Tablet */
 
@@ -1791,6 +1794,9 @@ button{
         font-weight: 400;
         line-height: 24px; /* 150% */
     }
+    .newsletter-mobile{
+        display: none;
+    }
 }
 
 
@@ -2258,6 +2264,7 @@ button{
         align-items: center;
         gap: var(--spacing-6xl, 48px);
         align-self: stretch;
+        min-width: auto;
     }
     .pricing-card{
         display: flex;
@@ -2333,6 +2340,7 @@ button{
         align-items: flex-start;
         gap: 24px;
         align-self: stretch;
+        
     }
     .check-items{
         display: flex;
@@ -2687,11 +2695,12 @@ button{
         gap: var(--spacing-xl, 16px);
         align-self: stretch;
     }
-    .email{
+    #email{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: var(--spacing-sm, 6px);
+        align-self: auto;
     }
     .subscribe{
         display: flex;
